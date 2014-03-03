@@ -45,4 +45,5 @@ How to install this SDK:
 		```
 		tar -jxpf DarwinARM_SDK_v0.1_32bit.tar.bz2
 		mv -f DarwinARM_SDK_v0.1_32bit/* /
+		xcode-select -switch /opt/Developer
 		```
