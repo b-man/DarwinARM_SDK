@@ -34,8 +34,8 @@ What is included in this SDK:
 
 	* Developer resources:
 		- CoreOSMAkefiles	- for compatibility purposes (Don't use this directly!)
-		- avaliability		- used for library versioning
-		- Darwin ARM sysroot	- the Darwin ARM sysroot - contains all necessary userspace headers/libraries (based on iOS5.x sdk sysroot)
+		- AvailabilityVersions	- used for library versioning
+		- DDarwinARM.sdk	- the Darwin ARM sysroot - contains all necessary userspace headers/libraries (based on iOS5.x sdk sysroot)
 
 
 How to install this SDK:
