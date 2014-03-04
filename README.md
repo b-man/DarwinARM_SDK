@@ -26,16 +26,16 @@ What is included in this SDK:
 
 	* Toolchain tools:
 		- clang/llvm		- a slightly modified port of clang-3.4 that is used to cross compile code for Darwin ARM. Also includes other llvm tools
-		- cctools		- a port of apple's other misc. compiler tools
+		- cctools			- a port of apple's other misc. compiler tools
 
 	* System tools:
 		- xcode-tools		- tools used to invoke Darwin ARM sdk tools or get Toolchain/SDK information from anywhere on your system
-					 NOTE: you should invoke all SDK commands through xcrun. see https://github.com/b-man/xcode-tools.git for more info
+					 		NOTE: you should invoke all SDK commands through xcrun. see https://github.com/b-man/xcode-tools.git for more info
 
 	* Developer resources:
-		- CoreOSMAkefiles	- for compatibility purposes (Don't use this directly!)
+		- CoreOSMAkefiles		- for compatibility purposes (Don't use this directly!)
 		- AvailabilityVersions	- used for library versioning
-		- DDarwinARM.sdk	- the Darwin ARM sysroot - contains all necessary userspace headers/libraries (based on iOS5.x sdk sysroot)
+		- DarwinARM.sdk			- the Darwin ARM sysroot - contains all necessary userspace headers/libraries (based on iOS5.x sdk sysroot)
 
 
 How to install this SDK:
