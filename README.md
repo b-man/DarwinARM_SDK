@@ -17,7 +17,7 @@ This SDK depends on the following packages to be installed on your system:
 	* unifdef
 	* autotools-dev
 
-What is What is included in this SDK:
+What is included in this SDK:
 
 	* Developer tools:
 		- image3maker		- a simple utility used to generate img3 files to be used when building GenericBooter
@@ -42,8 +42,6 @@ How to install this SDK:
 
 	* for now, this SDK is only available in tar.bz2 form. To install this SDK into your system, run the following as root:
 
-		```
 		tar -jxpf DarwinARM_SDK_v0.1_32bit.tar.bz2
 		mv -f DarwinARM_SDK_v0.1_32bit/* /
 		xcode-select -switch /opt/Developer
-		```
