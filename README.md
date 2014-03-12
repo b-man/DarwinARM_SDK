@@ -44,4 +44,7 @@ How to install this SDK:
 
 		tar -jxpf DarwinARM_SDK_v0.1_32bit.tar.bz2
 		mv -f DarwinARM_SDK_v0.1_32bit/* /
+		export LD_LIBRARY_PATH=/opt/Developer/Toolchains/DarwinARM.toolchain/usr/lib
 		xcode-select -switch /opt/Developer
+
+	NOTE: Until this SDK is properly packaged, you will need to export LD_LIBRARY_PATH each time you use the SDK, or alternatively create an .sh script in /etc/profile.d to automate this process.
